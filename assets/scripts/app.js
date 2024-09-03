@@ -9,5 +9,12 @@
 // import * as util from "./util.js" 
 // console.log(util.abc, util.bce, util.default);
 
+// import * as util from "./util.js" 
+// console.log(util.default("Luca", "How are you?"));
+
+
+// import * as util from "./util.js" 
+// console.log(util.default());
+
 import * as util from "./util.js" 
-console.log(util.default("Luca", "How are you?"));
+console.log(util.default("Luca"));
