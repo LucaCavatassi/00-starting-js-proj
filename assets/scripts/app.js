@@ -153,5 +153,9 @@ setTimeout(()=> {
     
 }, 2000)
 
+// possibile farlo anche con funzioni non native
+function greeter (greetFn) {
+    greetFn();
+}
 
-
+greeter(handleTimeout);
