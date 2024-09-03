@@ -128,6 +128,30 @@ const extendUser = {
 }
 console.log(extendUser);
 
+// FUNCTIONS AS VALUES
+function handleTimeout() {
+    console.log("Time Out");
+}
+// stessa funzione ma con arrow salvata in costante per nominarla
+const handleTimeout3 = ()=>{
+    console.log("timeout-3");
+    
+};
+
+setTimeout(handleTimeout3, 2000);
+
+// questo sopra è uguale a questo 
+
+setTimeout (function handleTimeout2() {
+    console.log("timeout");
+    
+}, 2000);
+
+// che è uguale a questo 
+setTimeout(()=> {
+    console.log("timeout-2");
+    
+}, 2000)
 
 
 
