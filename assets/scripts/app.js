@@ -33,3 +33,24 @@
 // let user1 =  new User("luca", 30);
 // console.log(user1);
 // user1.greetings();
+
+const hobbies = ["sport", "music", "cinema"]
+hobbies.push("writing")
+
+const index = hobbies.findIndex((item)=> item === "writing") 
+console.log(index);
+
+const textTransform = hobbies.map((item) => item + "!")
+console.log(textTransform);
+
+const textTypeTransform = hobbies.map((item) => ({passion: item}) )
+console.log(textTypeTransform);
+
+for (let i = 0; i < hobbies.length; i++) {
+    console.log(hobbies[i]);
+}
+
+for (let i = hobbies.length - 1; i >= 0; i--) {
+    console.log(hobbies[i]);
+    
+}
