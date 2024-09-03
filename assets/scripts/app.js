@@ -109,14 +109,24 @@ const user = {
     name: "ivo"
 }
 
-function test({id, name}) {
-    return console.log(id, name);
+// function test({id, name}) {
+//     return console.log(id, name);
     
+// }
+
+// let result = test(user);
+
+// SPREAD OPERATOR
+const test = ["sport", "music", "math"];
+const test2 = ["reading"];
+
+const spreadMerge = [...test, ...test2]
+console.log(spreadMerge);
+const extendUser = {
+    isAdmin: true,
+    ...user
 }
-
-let result = test(user);
-
-
+console.log(extendUser);
 
 
 
