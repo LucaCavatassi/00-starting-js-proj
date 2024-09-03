@@ -16,5 +16,20 @@
 // import * as util from "./util.js" 
 // console.log(util.default());
 
-import * as util from "./util.js" 
-console.log(util.default("Luca"));
+// import * as util from "./util.js" 
+// console.log(util.default("Luca"));
+
+// class User {
+//     constructor(userName, age) {
+//         this.name = userName
+//         this.age = age
+//     }
+
+//     greetings() {
+//         console.log("hi");
+//     }
+// }
+
+// let user1 =  new User("luca", 30);
+// console.log(user1);
+// user1.greetings();

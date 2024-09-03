@@ -17,7 +17,7 @@
 // }
 
 // Se unico parametro parentisi si possono non mettere, se nessun paramatero vanno messe.
-export default userName => {
-    let result = "Hello " + userName;
-    return result
-}
+// export default userName => {
+//     let result = "Hello " + userName;
+//     return result
+// }
