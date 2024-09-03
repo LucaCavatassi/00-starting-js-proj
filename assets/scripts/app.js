@@ -66,8 +66,8 @@ for (let i = hobbies.length - 1; i >= 0; i--) {
 
 // con il destructuring posso fare così
 
-const [user1, user2] = ["luca", "fabio"];
-console.log(user1, user2);
+// const [user1, user2] = ["luca", "fabio"];
+// console.log(user1, user2);
 
 // si può usare anche per gli oggetti
 
@@ -82,10 +82,42 @@ console.log(user1, user2);
 // console.log(name, age);
 
 // destrutturato
-const {name, age} = {
-    name: "Max", 
-    age: 34
+// const {name, age} = {
+//     name: "Max", 
+//     age: 34
+// }
+// // il nome deve essere uguale alla key
+// console.log(name, age);
+
+// DESTRUCTURING IN FUNZIONE
+// const user = {
+//     id: 12,
+//     name: "ivo"
+// }
+
+// function test(object) {
+//     return console.log(object.name, object.id);
+    
+// }
+
+// let result = test(user);
+
+// destructured
+
+const user = {
+    id: 12,
+    name: "ivo"
 }
-// il nome deve essere uguale alla key
-console.log(name, age);
+
+function test({id, name}) {
+    return console.log(id, name);
+    
+}
+
+let result = test(user);
+
+
+
+
+
 
